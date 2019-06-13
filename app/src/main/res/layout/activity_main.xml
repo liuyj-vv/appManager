@@ -11,12 +11,12 @@
     <FrameLayout
         android:id="@+id/spaceinfo"
         android:layout_width="230dip"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_gravity="left|top"
         android:background="@drawable/bg_leftpanel">
         <TextView
             android:id="@+id/id_title"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="80dip"
             android:layout_marginLeft="40dip"
@@ -28,7 +28,7 @@
         </TextView>
         <TextView
             android:id="@+id/id_subtitle"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="150dip"
             android:layout_marginLeft="40dip"
@@ -42,7 +42,7 @@
             android:id="@+id/id_notice_allspacelayout"
             android:layout_marginTop="180dip"
             android:layout_marginLeft="40dip"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
                 android:id="@+id/id_notice_allspacetitle"
@@ -68,7 +68,7 @@
             android:id="@+id/id_notice_freespacelayout"
             android:layout_marginTop="210dip"
             android:layout_marginLeft="40dip"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
                 android:id="@+id/id_notice_freespacetitle"
@@ -96,12 +96,12 @@
     <FrameLayout
         android:id="@+id/appinfo"
         android:layout_marginLeft="230dip"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_gravity="left|top">
         <LinearLayout
             android:id="@+id/id_btnlayout"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="left|top"
             android:layout_marginTop="120dip">
@@ -169,44 +169,44 @@
         </LinearLayout>
         <ViewFlipper
             android:id="@+id/appInfoFlipper"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="top|left"
             android:layout_marginTop="200dip">
             <ViewFlipper
                 android:id="@+id/allAppInfoFlipper"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="top|left"
                 android:visibility="invisible"/>
             <ViewFlipper
                 android:id="@+id/gameAppInfoFlipper"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="top|left"
                 android:visibility="invisible"/>
             <ViewFlipper
                 android:id="@+id/yuleAppInfoFlipper"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="top|left"
                 android:visibility="invisible"/>
             <ViewFlipper
                 android:id="@+id/shenghuoAppInfoFlipper"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="top|left"
                 android:visibility="invisible"/>
             <ViewFlipper
                 android:id="@+id/jiaoyuAppInfoFlipper"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="top|left"
                 android:visibility="invisible"/>
             <ViewFlipper
                 android:id="@+id/zixunAppInfoFlipper"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="top|left"
                 android:visibility="invisible"/>
         </ViewFlipper>
@@ -231,7 +231,7 @@
         android:id="@+id/pointlayoutframe"
         android:layout_marginLeft="230dip"
         android:layout_width="872dip"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_gravity="left|top">
         <!--<com.changhong.app_manager.PointLayout-->
             <!--android:id="@+id/pointlayout"-->

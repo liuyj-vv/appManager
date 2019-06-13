@@ -178,6 +178,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="top|left"
+                android:background="#B18888"
                 android:layout_marginTop="200dip">
                 <ViewFlipper
                     android:id="@+id/flipperAll"
@@ -190,6 +191,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="top|left"
+                    android:background="#4F5027"
                     android:visibility="invisible"/>
                 <ViewFlipper
                     android:id="@+id/flipperEntertainment"

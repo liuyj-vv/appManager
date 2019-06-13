@@ -2,6 +2,7 @@ package com.changhong.appmanager;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.widget.Button;
 import android.widget.RelativeLayout;
@@ -47,7 +48,21 @@ public class MainActivity extends Activity {
 
         LayoutInflater inflater = getLayoutInflater();
         RelativeLayout appContenLayouot = (RelativeLayout)inflater.inflate(R.layout.layout_app_content, null);
-        flipperArrayList.get(0).addView(appContenLayouot);
-        flipperArrayList.get(0).setAutoStart(true);
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (event.getAction() == KeyEvent.ACTION_DOWN) {
+            switch (keyCode) {
+                case KeyEvent.KEYCODE_DPAD_LEFT:
+                    mainFlipper.showNext();
+                    break;
+                case KeyEvent.KEYCODE_DPAD_RIGHT:
+                    mainFlipper.showPrevious();
+                    break;
+            }
+        }
+
+        return super.onKeyDown(keyCode, event);
     }
 }

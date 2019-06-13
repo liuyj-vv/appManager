@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/id_app_contentview"
+    android:gravity="top|left">
+
+    <com.changhong.app.AppCellLayout
+        android:id="@+id/id_app_item_1"
+	    style="@style/AppItemStyle"
+	    android:layout_marginLeft="30dip"
+		android:layout_marginTop="30dip"	    
+	    android:layout_width="156dip"
+	    android:layout_height="156dip"
+	    android:layout_gravity="top|left" 	    
+	    android:background="@drawable/yingyong0" />
+    
+    <com.changhong.app.AppCellLayout
+        android:id="@+id/id_app_item_2"
+	    style="@style/AppItemStyle"
+	    android:layout_width="156dip"
+	    android:layout_height="156dip"
+	    android:layout_marginLeft="194dip" 
+	    android:layout_marginTop="30dip"   
+	    android:background="@drawable/yingyong1" />
+	
+    <com.changhong.app.AppCellLayout
+        android:id="@+id/id_app_item_3"
+	    style="@style/AppItemStyle"
+	    android:layout_width="156dip"
+	    android:layout_height="156dip"
+	    android:layout_marginLeft="358dip"
+	    android:layout_marginTop="30dip"
+	    android:background="@drawable/yingyong2" />
+	
+    <com.changhong.app.AppCellLayout
+        android:id="@+id/id_app_item_4"
+	    style="@style/AppItemStyle"
+	    android:layout_width="156dip"
+	    android:layout_height="156dip"
+	    android:layout_marginLeft="522dip"
+	    android:layout_marginTop="30dip"
+	    android:background="@drawable/yingyong3" />
+	
+    <com.changhong.app.AppCellLayout
+        android:id="@+id/id_app_item_5"
+	    style="@style/AppItemStyle"
+	    android:layout_width="156dip"
+	    android:layout_height="156dip"
+	    android:layout_marginLeft="686dip"
+	    android:layout_marginTop="30dip"
+	    android:background="@drawable/yingyong4" />    
+	
+    <com.changhong.app.AppCellLayout
+        android:id="@+id/id_app_item_6"
+	    style="@style/AppItemStyle"
+	    android:layout_width="156dip"
+	    android:layout_height="156dip"
+	    android:layout_gravity="top|left"
+		android:layout_marginLeft="30dip"
+	    android:layout_marginTop="204dip"   
+	    android:background="@drawable/yingyong5" />
+	
+    <com.changhong.app.AppCellLayout
+        android:id="@+id/id_app_item_7"
+	    style="@style/AppItemStyle"
+	    android:layout_width="156dip"
+	    android:layout_height="156dip"
+	    android:layout_gravity="top|left"
+	    android:layout_marginLeft="194dip"
+	    android:layout_marginTop="204dip"
+	    android:background="@drawable/yingyong6" />
+	
+    <com.changhong.app.AppCellLayout
+        android:id="@+id/id_app_item_8"
+	    style="@style/AppItemStyle"
+	    android:layout_width="156dip"
+	    android:layout_height="156dip"
+	    android:layout_gravity="top|left"
+	    android:layout_marginLeft="358dip"
+	    android:layout_marginTop="204dip"
+	    android:background="@drawable/yingyong7" />
+	
+    <com.changhong.app.AppCellLayout
+        android:id="@+id/id_app_item_9"
+	    style="@style/AppItemStyle"
+	    android:layout_width="156dip"
+	    android:layout_height="156dip"
+	    android:layout_gravity="top|left"
+	    android:layout_marginLeft="522dip"
+	    android:layout_marginTop="204dip"
+	    android:background="@drawable/yingyong8" />
+	
+    <com.changhong.app.AppCellLayout
+        android:id="@+id/id_app_item_10"
+	    style="@style/AppItemStyle"
+	    android:layout_width="156dip"
+	    android:layout_height="156dip"
+	    android:layout_gravity="top|left"
+	    android:layout_marginLeft="686dip"
+	    android:layout_marginTop="204dip"
+	    android:background="@drawable/yingyong9" />
+</RelativeLayout>

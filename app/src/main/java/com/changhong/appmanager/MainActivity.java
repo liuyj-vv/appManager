@@ -2,7 +2,9 @@ package com.changhong.appmanager;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.ViewFlipper;
 
 import java.util.ArrayList;
@@ -23,6 +25,7 @@ public class MainActivity extends Activity {
         if (firstInit) {
             //第一次初始化，获取控件
             mainFlipper = findViewById(R.id.flipperMain);
+
             buttonArrayList.clear();
             buttonArrayList.add((Button) findViewById(R.id.btn_all));
             buttonArrayList.add((Button) findViewById(R.id.btnGame));
@@ -32,15 +35,16 @@ public class MainActivity extends Activity {
             buttonArrayList.add((Button) findViewById(R.id.btnInfomation));
 
             flipperArrayList.clear();
-            flipperArrayList.add((ViewFlipper) findViewById(R.id.flipperAll));
-            flipperArrayList.add((ViewFlipper) findViewById(R.id.flipperGame));
-            flipperArrayList.add((ViewFlipper) findViewById(R.id.flipperEntertainment));
-            flipperArrayList.add((ViewFlipper) findViewById(R.id.flipperLife));
-            flipperArrayList.add((ViewFlipper) findViewById(R.id.flipperEducation));
-            flipperArrayList.add((ViewFlipper) findViewById(R.id.flipperEntertainment));
+            flipperArrayList.add((ViewFlipper) mainFlipper.findViewById(R.id.flipperAll));
+            flipperArrayList.add((ViewFlipper) mainFlipper.findViewById(R.id.flipperGame));
+            flipperArrayList.add((ViewFlipper) mainFlipper.findViewById(R.id.flipperEntertainment));
+            flipperArrayList.add((ViewFlipper) mainFlipper.findViewById(R.id.flipperLife));
+            flipperArrayList.add((ViewFlipper) mainFlipper.findViewById(R.id.flipperEducation));
+            flipperArrayList.add((ViewFlipper) mainFlipper.findViewById(R.id.flipperEntertainment));
 
             firstInit = false;
         }
-
+        LayoutInflater inflater = getLayoutInflater();
+        RelativeLayout appContenLayouot = (RelativeLayout)inflater.inflate(R.layout.layout_app_content, null);
     }
 }

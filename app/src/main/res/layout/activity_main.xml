@@ -7,6 +7,7 @@
     android:background="@color/gray"
     tools:context=".MainActivity">
 
+    <!--左侧边栏-->
     <FrameLayout
         android:id="@+id/spaceinfo"
         android:layout_width="230dip"
@@ -90,6 +91,8 @@
             </TextView>
         </LinearLayout>
     </FrameLayout>
+
+    <!--应用显示部分-->
     <FrameLayout
         android:id="@+id/appinfo"
         android:layout_marginLeft="230dip"
@@ -103,68 +106,66 @@
             android:layout_gravity="left|top"
             android:layout_marginTop="120dip">
             <Button
-                android:id="@+id/allAppInfoBtn"
+                android:id="@+id/btn_all"
                 style="@style/ButtonMainView"
                 android:layout_gravity="top|center_horizontal"
                 android:layout_marginLeft="160dip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:nextFocusLeft="@+id/allAppInfoBtn"
-                android:nextFocusUp="@+id/allAppInfoBtn"
-                android:nextFocusRight="@+id/gameAppInfoBtn"
+                android:nextFocusLeft="@+id/btn_all"
+                android:nextFocusUp="@+id/btn_all"
+                android:nextFocusRight="@+id/btnGame"
                 android:background="@drawable/btn_style_all_selector"/>
             <Button
-                android:id="@+id/gameAppInfoBtn"
+                android:id="@+id/btnGame"
                 style="@style/ButtonMainView"
                 android:layout_gravity="top|center_horizontal"
                 android:layout_marginLeft="8dip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:nextFocusUp="@+id/gameAppInfoBtn"
-                android:nextFocusRight="@+id/yuleAppInfoBtn"
+                android:nextFocusUp="@+id/btnGame"
+                android:nextFocusRight="@+id/btnEntertainment"
                 android:background="@drawable/btn_style_game_selector"/>
             <Button
-                android:id="@+id/yuleAppInfoBtn"
+                android:id="@+id/btnEntertainment"
                 style="@style/ButtonMainView"
-
                 android:layout_gravity="top|center_horizontal"
                 android:layout_marginLeft="8dip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:nextFocusUp="@+id/yuleAppInfoBtn"
-                android:nextFocusRight="@+id/shenghuoAppInfoBtn"
+                android:nextFocusUp="@+id/btnEntertainment"
+                android:nextFocusRight="@+id/btnLife"
                 android:background="@drawable/btn_style_entertainment_selector"/>
             <Button
-                android:id="@+id/shenghuoAppInfoBtn"
+                android:id="@+id/btnLife"
                 style="@style/ButtonMainView"
-
                 android:layout_gravity="top|center_horizontal"
                 android:layout_marginLeft="8dip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:nextFocusUp="@+id/shenghuoAppInfoBtn"
-                android:nextFocusRight="@+id/jiaoyuAppInfoBtn"
+                android:nextFocusUp="@+id/btnLife"
+                android:nextFocusRight="@+id/btnEducation"
                 android:background="@drawable/btn_style_life_selector"/>
             <Button
-                android:id="@+id/jiaoyuAppInfoBtn"
+                android:id="@+id/btnEducation"
                 style="@style/ButtonMainView"
                 android:layout_gravity="top|center_horizontal"
                 android:layout_marginLeft="8dip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:nextFocusUp="@+id/jiaoyuAppInfoBtn"
-                android:nextFocusRight="@+id/zixunAppInfoBtn"
+                android:nextFocusUp="@+id/btnEducation"
+                android:nextFocusRight="@+id/btnInfomation"
                 android:background="@drawable/btn_style_education_selector"/>
             <Button
-                android:id="@+id/zixunAppInfoBtn"
+                android:id="@+id/btnInfomation"
                 style="@style/ButtonMainView"
                 android:layout_gravity="top|center_horizontal"
                 android:layout_marginLeft="8dip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:nextFocusUp="@+id/zixunAppInfoBtn"
-                android:nextFocusRight="@+id/zixunAppInfoBtn"
-                android:background="@drawable/btn_style_zixun_selector"/>
+                android:nextFocusUp="@+id/btnInfomation"
+                android:nextFocusRight="@+id/btnInfomation"
+                android:background="@drawable/btn_style_infomation_selector"/>
         </LinearLayout>
         <ViewFlipper
             android:id="@+id/appInfoFlipper"
@@ -210,12 +211,14 @@
                 android:visibility="invisible"/>
         </ViewFlipper>
     </FrameLayout>
+
     <ImageView
         android:id="@+id/id_app_focus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible">
     </ImageView>
+
     <ImageView
         android:id="@+id/id_app_movepic"
         android:layout_width="wrap_content"
@@ -223,6 +226,7 @@
         android:background="@drawable/appmovepic"
         android:visibility="invisible">
     </ImageView>
+
     <FrameLayout
         android:id="@+id/pointlayoutframe"
         android:layout_marginLeft="230dip"

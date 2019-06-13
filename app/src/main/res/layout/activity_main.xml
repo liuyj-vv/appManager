@@ -174,37 +174,37 @@
             android:layout_gravity="top|left"
             android:layout_marginTop="200dip">
             <ViewFlipper
-                android:id="@+id/allAppInfoFlipper"
+                android:id="@+id/flipperAll"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="top|left"
                 android:visibility="invisible"/>
             <ViewFlipper
-                android:id="@+id/gameAppInfoFlipper"
+                android:id="@+id/flipperGame"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="top|left"
                 android:visibility="invisible"/>
             <ViewFlipper
-                android:id="@+id/yuleAppInfoFlipper"
+                android:id="@+id/flipperEntertainment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="top|left"
                 android:visibility="invisible"/>
             <ViewFlipper
-                android:id="@+id/shenghuoAppInfoFlipper"
+                android:id="@+id/flipperLife"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="top|left"
                 android:visibility="invisible"/>
             <ViewFlipper
-                android:id="@+id/jiaoyuAppInfoFlipper"
+                android:id="@+id/flipperEducation"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="top|left"
                 android:visibility="invisible"/>
             <ViewFlipper
-                android:id="@+id/zixunAppInfoFlipper"
+                android:id="@+id/flipperInfomation"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="top|left"

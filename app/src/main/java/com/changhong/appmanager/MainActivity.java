@@ -44,7 +44,10 @@ public class MainActivity extends Activity {
 
             firstInit = false;
         }
+
         LayoutInflater inflater = getLayoutInflater();
         RelativeLayout appContenLayouot = (RelativeLayout)inflater.inflate(R.layout.layout_app_content, null);
+        flipperArrayList.get(0).addView(appContenLayouot);
+        flipperArrayList.get(0).setAutoStart(true);
     }
 }

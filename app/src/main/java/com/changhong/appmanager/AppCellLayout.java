@@ -33,7 +33,6 @@ public class AppCellLayout extends LinearLayout {
 		zhou_app_bkg=(RelativeLayout)findViewById(R.id.zhou_app_bkg);
 	}
 
-	/*����ͼƬ�ӿ�*/
 	public void setImageResource(int resId){
 		mImgView.setImageResource(resId);
 	}
@@ -42,53 +41,43 @@ public class AppCellLayout extends LinearLayout {
 		mImgView.setImageDrawable(drawable);
 	}
 
-	/*�������ֽӿ�*/
 	public void setText(String str){
 		mTextView.setText(str);
 	}
-	/*�������ִ�С*/
+
 	public void setTextSize(float size){
 		mTextView.setTextSize(size);
 	}
 
 	public void setBackground(int bkg) {
-		
 		zhou_app_bkg.setBackgroundResource(bkg);
-		
 	}
 	
-	public boolean isNeedToTurnLeft() 
-	{
+	public boolean isNeedToTurnLeft() {
 		return needTurnToLeft;
 	}
 	
-	public void setTurnLeft(boolean needToTurnLeft) 
-	{
+	public void setTurnLeft(boolean needToTurnLeft) {
 		this.needTurnToLeft = needToTurnLeft;
 	}
 	
-	public boolean isNeedToTurnRight() 
-	{
+	public boolean isNeedToTurnRight() {
 		return needTurnToRight;
 	}
 	
-	public void setTurnRight(boolean needToTurnRight) 
-	{
+	public void setTurnRight(boolean needToTurnRight) {
 		this.needTurnToRight = needToTurnRight;
 	}
 
-	public void setPosition(int position)
-	{
+	public void setPosition(int position) {
 		this.position = position;
 	}
 	
-	public int getPosition()
-	{
+	public int getPosition() {
 		return position;
 	}
 	
 	public void setHorizontallyScrolling() {
-		
 		mTextView.setFocusable(true);
 		mTextView.setFocusableInTouchMode(true);
 		mTextView.setSingleLine(true);
@@ -96,7 +85,6 @@ public class AppCellLayout extends LinearLayout {
 
 		mTextView.setHorizontallyScrolling(true);
 		mTextView.setMarqueeRepeatLimit(-1);
-		
 	}
 	
 	/*public void setautoscroll() {

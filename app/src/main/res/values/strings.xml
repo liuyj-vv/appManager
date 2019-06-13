@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">appManager</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="used">Used Space：</string>
+    <string name="available">Free Space：</string>
+    <string name="open">open</string>
+    <string name="remove">remove</string>
+    <string name="prompt">  You did not install any App ! </string>
+    <string name="prompttwo">Sorry, the App does not exist or cannot be opened</string>
+    <string name="title">Manager</string>
+    <string name="subtitle">Local Storage</string>
+    <string name="notice_allspacetitle">All Space:</string>
+    <string name="notice_freespacetitle">Free Space:</string>
+    <string name="appmovedsuccess">App move success</string>
+    <string name="appopenfailed">Sorry，the App open fail</string>
+    <string name="appnomove">Sorry，the App could not move</string>
+    <string name="appexchangeprompt">click other App, Exchange position</string>
+    <string name="game">Game</string>
+    <string name="yule">Relax</string>
+    <string name="shenghuo">Life</string>
+    <string name="jiaoyu">Edu</string>
+    <string name="zixun">Info</string>
+    <string name="all">All</string>
+    <string name="deleteconfim">Do you want to delete?</string>
+</resources>
